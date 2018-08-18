@@ -1,8 +1,8 @@
 # Extra improved slider
 An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a greyscale slider, and a 6-step greyscale slider.
 
-![alt text](https://github.com/dustymethod/improved-slider/resources/screenshotHSB.jpg "HSB screenshot")
-![alt text](https://github.com/dustymethod/improved-slider/resources/screenshotRGB.jpg "RGB screenshot")
+![HSB screenshot](https://github.com/dustymethod/improved-slider/blob/master/resources/screenshotHSB.jpg "HSB screenshot")
+![RGB screenshot](https://github.com/dustymethod/improved-slider/resources/screenshotRGB.jpg "RGB screenshot")
 
 ##Bugs
 - For color selection via the default color picker or the Eyedropper tool, the panel's colors don't update until you mouse over the panel.
