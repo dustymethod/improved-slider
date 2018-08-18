@@ -5,11 +5,12 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 ![RGB screenshot](https://github.com/dustymethod/improved-slider/blob/master/resources/screenshotRGB.jpg "RGB screenshot")
 
 ## Usage
-- With Adobe Photoshop CC installed
-- download the .zxp file in /packaged
-- download [zxpinstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work)
-- Launch photoshop
-- Open the panel: Window > Extensions > ExtraImproved Slider
+1. With Adobe Photoshop CC installed
+2. download the .zxp file in /packaged
+3. download [zxpinstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work)
+4. use zxp installer to install the extension
+5. Launch photoshop
+6. Open the panel: Window > Extensions > ExtraImproved Slider
 
 ## Issues
 - Switching fg/bg colors with "x" hotkey does not immediately update the panel (requires mouse over to update)
