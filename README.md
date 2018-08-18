@@ -43,5 +43,5 @@ C:\Program Files (x86)\Common Files\Adobe\CEP\extensions
 
 ##### Installing a packaged extension
 [http://zxpinstaller.com/](http://zxpinstaller.com/)
-
+Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
 
