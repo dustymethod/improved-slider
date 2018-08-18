@@ -7,8 +7,7 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 ## Usage
 1. With Adobe Photoshop CC installed
 2. Download the .zxp file in /build
-3. Download [ZXPInstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work) and install the extension.
-4. Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
+3. Download [ZXPInstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work) and install the extension. Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
 5. Launch photoshop
 6. Open the panel: Window > Extensions > ExtraImproved Slider
 
@@ -33,9 +32,9 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 [Davide Barranca's HTML Panel Tips](http://www.davidebarranca.com/category/code/html-panels/)
 
 ###### Tip:
-To run your extension during development, copy the project folder (in this case, the ImprovedSlider folder) into this directory:
-
-C:\Program Files (x86)\Common Files\Adobe\CEP\extensions
+To run your extension during development, copy the project folder (in this case, the ImprovedSlider folder) into this directory:<br>
+C:\Program Files (x86)\Common Files\Adobe\CEP\extensions<br>
+And don't forget to set the [debug mode](https://github.com/Adobe-CEP/Getting-Started-guides/tree/master/Client-side%20Debugging).
 
 ##### How to Package an Extension
 [SigningTechNote\_CC.pdf](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)
@@ -43,5 +42,5 @@ C:\Program Files (x86)\Common Files\Adobe\CEP\extensions
 ##### Installing a packaged extension
 Use [http://zxpinstaller.com/](http://zxpinstaller.com/) to install the .zxp.
 
-Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
+Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" to show up as an extension.
 
