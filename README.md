@@ -7,15 +7,14 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 ## Usage
 1. With Adobe Photoshop CC installed
 2. Download the .zxp file in /build
-3. Download [ZXPInstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work)
-4. Use zxp installer to install the extension
+3. Download [ZXPInstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work) and install the extension.
+4. Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
 5. Launch photoshop
 6. Open the panel: Window > Extensions > ExtraImproved Slider
 
 ## Issues
 - Switching fg/bg colors with "x" hotkey does not immediately update the panel (requires mouse over to update)
 - If the background color is selected (panel), but the foreground color is active (default color picker), sampling a color will update the panel's foreground color, instead of the background color.
-
 
 ## Resources & Tips
 ##### Useful development guides
