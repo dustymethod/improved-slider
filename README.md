@@ -42,6 +42,7 @@ C:\Program Files (x86)\Common Files\Adobe\CEP\extensions
 [SigningTechNote\_CC.pdf](https://wwwimages2.adobe.com/content/dam/acom/en/devnet/creativesuite/pdfs/SigningTechNote_CC.pdf)
 
 ##### Installing a packaged extension
-[http://zxpinstaller.com/](http://zxpinstaller.com/)
+Use [http://zxpinstaller.com/](http://zxpinstaller.com/) to install the .zxp.
+
 Alternatively, convert the .zxp to .zip by changing the extension, and extract the files. The folder must be placed in "C:\Program Files (x86)\Common Files\Adobe\CEP\extensions" To show up as an extension.
 
