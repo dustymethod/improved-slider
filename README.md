@@ -6,7 +6,7 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 
 ## Usage
 1. With Adobe Photoshop CC installed
-2. Download the .zxp file in /packaged
+2. Download the .zxp file in /build
 3. Download [ZXPInstaller](http://zxpinstaller.com/) (This is just what I used; other .zxp installers may also work)
 4. Use zxp installer to install the extension
 5. Launch photoshop
