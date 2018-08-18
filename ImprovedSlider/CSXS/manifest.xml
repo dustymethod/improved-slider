@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest ExtensionBundleId="com.example.improvedslider" ExtensionBundleName="ImprovedSlider" ExtensionBundleVersion="1.0" Version="4.0">
+	<ExtensionList>
+		<Extension Id="com.example.improvedslider.extension" Version="1.0"/>
+	</ExtensionList>
+	<ExecutionEnvironment>
+		<HostList>
+			<Host Name="PHXS" Version="19.0" />
+			<Host Name="PHSP" Version="19.0" />
+			<Host Name="PHXS" Version="13.0" />
+			<Host Name="PHSP" Version="13.0" />
+		</HostList>
+		<LocaleList>
+			<Locale Code="All"/>
+		</LocaleList>
+		<RequiredRuntimeList>
+			<RequiredRuntime Name="CSXS" Version="4.0"/>
+		</RequiredRuntimeList>
+	</ExecutionEnvironment>
+	<DispatchInfoList>
+		<Extension Id="com.example.improvedslider.extension">
+			<DispatchInfo>
+				<Resources>
+					<MainPath>./index.html</MainPath>
+					<ScriptPath>./js/ps.jsx</ScriptPath>
+				</Resources>
+				<UI>
+					<Type>Panel</Type>
+					<Menu>ExtraImproved Slider</Menu>
+					<!-- <Menu>ExtraImproved Slider</Menu> -->
+					<Geometry>
+						<Size>
+							<Height>115</Height>
+							<Width>285</Width>
+						</Size>
+						<MaxSize>
+							<Height>115</Height>
+							<Width>285</Width>
+						</MaxSize>
+						<MinSize>
+							<Height>115</Height>
+							<Width>285</Width>
+						</MinSize>
+					</Geometry>
+				</UI>
+			</DispatchInfo>
+		</Extension>
+	</DispatchInfoList>
+</ExtensionManifest>

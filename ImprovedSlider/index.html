@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <link rel="stylesheet" href="css/topcoat-desktop-dark.css" /> -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body id="body" ondragstart="return false;" ondrop="return false;">
+	<div id="container">
+		<div class="column" id="colorBoxCol">
+			<div class="colorBox" id="fgColorBox"></div>
+			<div class="colorBox" id="bgColorBox"></div>
+		</div>
+				
+		<div class="column" id="labelCol">
+			<div class="sliderLabel" id="sliderLabel0">R</div>
+			<div class="sliderLabel" id="sliderLabel1">G</div>
+			<div class="sliderLabel" id="sliderLabel2">B</div>
+			<!-- <div class="sliderLabel" id="sliderLabel3">-</div> -->
+		</div>
+		
+		<div class="column" id="sliderCol">
+			<input type="range" min="0" max="255" value="50" class="slider" id="slider0">
+			<input type="range" min="0" max="255" value="50" class="slider" id="slider1">
+			<input type="range" min="0" max="255" value="50" class="slider" id="slider2">
+			<input type="range" min="0" max="255" value="50" class="slider" id="greyscaleSlider">
+			<div id="greySteps">
+				<div class="greyStep" id="greyStep0"></div>
+				<div class="greyStep" id="greyStep1"></div>
+				<div class="greyStep" id="greyStep2"></div>
+				<div class="greyStep" id="greyStep3"></div>
+				<div class="greyStep" id="greyStep4"></div>
+				<div class="greyStep" id="greyStep5"></div>
+			</div>
+		</div>
+	
+		<div class="column" id="textBoxCol">
+			<input type="text" name="value" value="0" class="textbox" id="textBox0">
+			<input type="text" name="value" value="0" class="textbox" id="textBox1">
+			<input type="text" name="value" value="0" class="textbox" id="textBox2">
+			<!-- <input type="text" name="value" value="" class="textbox" id="textBox3"> -->
+		</div>
+		<div class="column" id="textBoxLabelCol">
+			<div class="textBoxLabel" id="textBoxLabel0">-</div>
+			<div class="textBoxLabel" id="textBoxLabel1">-</div>
+			<div class="textBoxLabel" id="textBoxLabel2">-</div>
+			<!-- <div class="textBoxLabel" id="textBoxLabel3">-</div> -->
+		</div>
+	</div>
+	<script src="js/lib/CSInterface.js"></script>
+	<!-- <script src="js/themeManager.js"></script> -->
+	<!-- TODO http://www.davidebarranca.com/2014/02/html-panels-tips-6-integrating-topcoat-css/ -->
+	<!-- <script src="js/main.js"></script> -->
+	<script src="js/main.js"></script>
+	
+</body>
+</html>
