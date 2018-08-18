@@ -4,8 +4,10 @@ An Adobe Photoshop CC panel extension. Includes RGB and HSB color sliders, a gre
 ![HSB screenshot](https://github.com/dustymethod/improved-slider/blob/master/resources/screenshotHSB.jpg "HSB screenshot")
 ![RGB screenshot](https://github.com/dustymethod/improved-slider/blob/master/resources/screenshotRGB.jpg "RGB screenshot")
 
-## Bugs
-- For color selection via the default color picker or the Eyedropper tool, the panel's colors don't update until you mouse over the panel.
+## Issues
+- Switching fg/bg colors with "x" hotkey does not immediately update the panel (requires mouse over to update)
+- If the background color is selected (panel), but the foreground color is active (default color picker), sampling a color will update the panel's foreground color, instead of the background color.
+
 
 ## Resources & Tips
 ##### Useful development guides
